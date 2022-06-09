@@ -9,11 +9,14 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sass": "1.52.2",
+    "sass-loader": "13.0.0"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.2.0-beta.4",
-    "@strapi/plugin-users-permissions": "4.2.0-beta.4",
     "@strapi/plugin-i18n": "4.2.0-beta.4",
+    "@strapi/plugin-users-permissions": "4.2.0-beta.4",
+    "@strapi/strapi": "4.2.0-beta.4",
     "better-sqlite3": "7.4.6"
   },
   "author": {
