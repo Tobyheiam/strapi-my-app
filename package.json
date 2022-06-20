@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "strapi-my-app",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,20 +10,20 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "sass": "1.52.2",
+    "sass": "1.52.3",
     "sass-loader": "13.0.0"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.2.0-beta.4",
-    "@strapi/plugin-users-permissions": "4.2.0-beta.4",
-    "@strapi/strapi": "4.2.0-beta.4",
+    "@strapi/strapi": "4.3.0-beta.1",
+    "@strapi/plugin-users-permissions": "4.3.0-beta.1",
+    "@strapi/plugin-i18n": "4.3.0-beta.1",
     "better-sqlite3": "7.4.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "78f6ceb7-c2dd-4731-a8df-53a010d29bac"
+    "uuid": "ffe90740-b147-43b0-91ab-3afde8748586"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
